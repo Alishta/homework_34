@@ -1,0 +1,68 @@
+body {
+    font-family: 'Kalam', 'Bad Script', cursive;
+    background: url(img/bg.jpg) repeat-y;
+    background-size: cover;
+    background-position: top center;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 1px 2px 2px #37d2f1;
+}
+.container {
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
+    background-color: rgba(255, 255, 255, 0.896);
+}
+.notation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+input {
+    width: 80%;
+}
+input::placeholder {
+    font-family: 'Kalam', 'Bad Script', cursive;
+}
+
+.notation-block {
+    margin-top: 10px;
+    border: 1px dashed #000;
+    border-radius: 10px;
+}
+
+.item {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-text {
+    width: 80%;
+}
+
+button {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 20px #37d2f1 inset, 0 0 0 0 #37d2f1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 0 0 10px 0 #37d2f1 inset, 0 0 5px 2px #37d2f1;
+    color: #26aec9;
+}
